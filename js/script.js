@@ -37,9 +37,7 @@ yesBtn.addEventListener("click", () => {
 
   yesBtn.style.backgroundColor = "#8bc34a";
   yesBtn.textContent = "You said Yes! 😘";
-});
 
-yesBtn.addEventListener("click", () => {
   setTimeout(() => {
     window.open("https://www.youtube.com/watch?v=OUgZqVunYNw", "_blank");
   }, 3000);
