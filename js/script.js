@@ -39,6 +39,6 @@ yesBtn.addEventListener("click", () => {
   yesBtn.textContent = "You said Yes! 😘";
 
   setTimeout(() => {
-    window.open("https://www.youtube.com/watch?v=OUgZqVunYNw", "_blank");
+    window.location.href = "https://www.youtube.com/watch?v=OUgZqVunYNw";
   }, 3000);
 });
