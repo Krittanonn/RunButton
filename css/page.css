@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+    overflow: hidden;
+    position: relative;
+    touch-action: none;
+  }
+
+.text{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #333;
+    z-index: 1;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    display: inline;
+    top: 0;
+    left: 0;
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+    display: flex;
+}
+  
+.yes, .no {
+    padding: 12px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+    transition: left 0.3s ease, top 0.3s ease;
+    user-select: none;
+  }
+  
+.yes {
+    background-color: #4caf50;
+    color: white;
+    left: 40%;
+    top: 50%;
+    z-index: 4;
+  }
+  
+.no {
+    background-color: #f44336;
+    color: white;
+    left: 60%;
+    top: 50%;
+    z-index: 4;
+  }
+
+  #yesMessage {
+    font-size: 5rem;
+    color: #ff4081;
+    margin-top: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 20%;
+    left: 53%;
+    transform: translateX(-50%);
+    z-index: 4;
+}
+
+@media screen and (max-width: 768px) {
+    #yesMessage {
+        font-size: 4rem;
+    }
+}
