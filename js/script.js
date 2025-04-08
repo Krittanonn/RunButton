@@ -34,7 +34,7 @@ yesMessage.id = "yesMessage";
 
 yesBtn.addEventListener("click", () => {
   // แสดงข้อความ "luv u beb" พร้อมอีโมจิหัวใจ
-  yesMessage.innerHTML = "luv u beb 💖";
+  yesMessage.innerHTML = "knew you say yes! 💖";
   
   // เพิ่มข้อความเข้าไปใน body
   document.body.appendChild(yesMessage);
